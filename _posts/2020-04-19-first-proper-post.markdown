@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title:  "First Proper Post"
 date:   2020-04-19 23:58:07 +0100
 ---

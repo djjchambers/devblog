@@ -1,2 +1,2 @@
 # devblog
-a bare-bones microblog for my programming learning 
+A bare-bones minimal microblog for documenting my learning progress

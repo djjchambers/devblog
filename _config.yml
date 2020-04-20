@@ -16,8 +16,8 @@
 title: Dan Chambers microblog
 email: djjchambers@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  My cursory microblog for documenting my stumbling progresss into programming, as a middle-aged career switcher.
-baseurl: "/_posts" # the subpath of your site
+  Test text here
+baseurl: "" # the subpath of your site
 
 # Build settings
 markdown: kramdown

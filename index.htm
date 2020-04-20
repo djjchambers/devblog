@@ -1,0 +1,14 @@
+---
+title: help
+layout: default
+---
+
+I'm a career switcher, trying to document my progress learning software development, mainly in Python. Here I'm keeping track of various projects to help my future self and anyone else in a similar situation.
+
+<ul>
+  {% for post in site.posts %}
+    <li>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+    </li>
+  {% endfor %}
+</ul>

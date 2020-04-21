@@ -1,25 +1,19 @@
 ---
 layout: default
+author: site.author
 ---
 
 <div class="post">
   <div class="post-info">
-    <span>Written by</span>
-    {% if page.author %}
-        {{ page.author }}
-    {% else %}
-        {{ site.author.name }}
-    {% endif %}
-
+    <span>Posted by</span>
+        {{ site.author }},
     {% if page.date %}
-      <br>
-      <span>on&nbsp;</span><time datetime="{{ page.date }}">{{ page.date | date: "%B %d, %Y" }}</time>
+      <span></span><time datetime="{{ page.date }}">{{ page.date | date: "%B %d, %Y" }}</time>
     {% endif %}
   </div>
-
-  <h1 class="post-title">{{ page.title }}</h1>
+  <br style = “line-height:2;”></br>
+  <h2 class="post-title">{{ page.title }}</h2>
   <div class="post-line"></div>
-
   {{ content }}
 </div>
 

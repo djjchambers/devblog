@@ -14,15 +14,17 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Dan Chambers microblog
+author: Dan Chambers
 email: djjchambers@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Test text here
+  A bare-bones blog to help me document my learning "journey" in programming. 
 baseurl: "" # the subpath of your site
 
 # Build settings
 markdown: kramdown
 github: [metadata]
-remote_theme: chesterhow/tale
+theme: jekyll-theme-tactile
+#remote_theme: chesterhow/tale
 
 permalink:    /:year-:month-:day/:title
 paginate:     5

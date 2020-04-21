@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title:  "new theme and more mistakes"
 date:   2020-04-19 22:38:07 +0100
 ---
